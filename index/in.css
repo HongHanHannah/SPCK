@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.foot{
+    justify-content: space-around;
+}

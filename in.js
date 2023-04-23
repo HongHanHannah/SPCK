@@ -1,3 +1,0 @@
-let list_post = [
-    
-]
