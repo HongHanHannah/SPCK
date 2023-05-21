@@ -26,6 +26,11 @@ const submitButton = document.createElement("input")
 submitButton.type="button"
 submitButton.value="Đăng ký"
 
+const p3 = document.createElement("input")
+p3.innerHTML = "Bạn có tài khoản?"
+
+
+
 regSignup.appendChild(title)
 regSignup.appendChild(emailInput)
 regSignup.appendChild(nameInput)
@@ -33,6 +38,8 @@ regSignup.appendChild(usernameInput)
 regSignup.appendChild(passInput)
 regSignup.appendChild(p1)
 regSignup.appendChild(p2)
+regSignup.appendChild(submitButton)
+
 
 const regForm = document.createElement("form");
 regForm.appendChild(regSignup);
